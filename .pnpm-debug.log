@@ -1,0 +1,456 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "extesion-template",
+      "version": "0.0.1",
+      "type": "module",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+      },
+      "devDependencies": {
+        "@crxjs/vite-plugin": "2.0.0-beta.18",
+        "@types/chrome": "^0.0.244",
+        "@typescript-eslint/eslint-plugin": "^6.3.0",
+        "@typescript-eslint/parser": "^6.3.0",
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.2.8",
+        "sass": "^1.63.6",
+        "tailwindcss": "^3.3.2",
+        "vite": "^4.3.9",
+        "vite-plugin-eslint": "^1.8.1",
+        "vite-plugin-style-import": "^1.4.1",
+        "vite-plugin-zip-pack": "^1.0.6"
+      },
+      "dependencies": {
+        "typescript": "^5.2.2"
+      }
+    },
+    "prefix": "/Users/wuxue/sss/article-extractor"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/wuxue/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/wuxue/sss/article-extractor/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/wuxue/sss/article-extractor",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/prettier"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@types%2Fchrome"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/tailwindcss"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@typescript-eslint%2Fparser"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@typescript-eslint%2Feslint-plugin"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint-config-prettier"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@crxjs%2Fvite-plugin"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/sass"
+  },
+  "12 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/vite"
+  },
+  "13 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/prettier-plugin-tailwindcss"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-eslint"
+  },
+  "15 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-style-import"
+  },
+  "16 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint"
+  },
+  "17 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-zip-pack"
+  },
+  "18 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/eslint-plugin-prettier"
+  },
+  "19 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/typescript"
+  },
+  "20 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npm.taobao.org/pnpm: request to https://registry.npm.taobao.org/pnpm failed, reason: certificate has expired",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npm.taobao.org/pnpm: request to https://registry.npm.taobao.org/pnpm failed, reason: certificate has expired\n    at RetryOperation._fn (/Users/wuxue/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.29.1/node_modules/pnpm/dist/pnpm.cjs:85638:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  },
+  "21 debug pnpm": "Using cached meta from /Users/wuxue/Library/Caches/pnpm/metadata/registry.npm.taobao.org/pnpm.json",
+  "22 debug pnpm:update-check": {
+    "currentVersion": "6.29.1",
+    "latestVersion": "8.4.0"
+  },
+  "23 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint-plugin-prettier"
+  },
+  "24 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/tailwindcss"
+  },
+  "25 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/prettier"
+  },
+  "26 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/typescript"
+  },
+  "27 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@typescript-eslint%2Fparser"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@typescript-eslint%2Feslint-plugin"
+  },
+  "29 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-style-import"
+  },
+  "30 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-zip-pack"
+  },
+  "31 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@crxjs%2Fvite-plugin"
+  },
+  "32 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/prettier-plugin-tailwindcss"
+  },
+  "33 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/eslint-config-prettier"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/sass"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/vite-plugin-eslint"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/vite"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@types%2Fchrome"
+  },
+  "39 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npm.taobao.org/@crxjs%2Fvite-plugin: request to https://registry.npm.taobao.org/@crxjs%2Fvite-plugin failed, reason: certificate has expired",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npm.taobao.org/@crxjs%2Fvite-plugin: request to https://registry.npm.taobao.org/@crxjs%2Fvite-plugin failed, reason: certificate has expired\n    at RetryOperation._fn (/Users/wuxue/pnpm-global/5/node_modules/.pnpm/registry.npmmirror.com+pnpm@6.29.1/node_modules/pnpm/dist/pnpm.cjs:85638:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
